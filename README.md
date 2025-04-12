@@ -31,7 +31,7 @@ This project uses __PostgreSQL with TypeORM__ as the database. <br>
 ✅ Docker config ready. <br>
 
 <p align="center">📄 The project documentation was made with <a href="https://www.postman.com/" target="_blank">Postman</a> 📄</p>
-<p align="center"><a href="https://drive.google.com/file/d/1x3VRfHDjPMncVmn66s8gdHYUfiZOG8wi/view?usp=drive_link" target="_blank">Download here</a></p>
+<p align="center"><a href="https://drive.google.com/file/d/13ndvNKiU1-JDAFH1zQEeTPbwhmkb3ZWY/view?usp=drive_link" target="_blank">Download here</a></p>
 
 ## Project setup
 
@@ -52,7 +52,7 @@ TYPEORM_DATABASE=csv-to-pdf
 TYPEORM_SCHEMA=csv-to-pdf
 TYPEORM_DIALECT=postgres
 
-JWT_SECRET=senhaMuitoForteParaJWTSecret
+JWT_SECRET={YourJWTSecret}
 JWT_EXPIRES_IN=1d
 
 DATABASE_URL=postgres://postgres:1234@localhost:5432/csv-to-pdf
