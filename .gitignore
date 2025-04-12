@@ -2,6 +2,8 @@
 /dist
 /node_modules
 /build
+/files
+/files-pdf
 
 # Logs
 logs

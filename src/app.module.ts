@@ -5,6 +5,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { typeOrmService } from './config/typeorm.config';
+import { BilletModule } from './billet/billet.module';
+import { LotModule } from './lot/lot.module';
 
 @Module({
   imports: [
@@ -12,6 +14,8 @@ import { typeOrmService } from './config/typeorm.config';
       isGlobal: true,
     }),
     TypeOrmModule.forRoot(typeOrmService.getTypeormConfig()),
+    BilletModule,
+    LotModule,
   ],
   controllers: [AppController],
   providers: [AppService],
